@@ -1,5 +1,6 @@
 import React from 'react';
 import Carrousel from './Carrousel'
+import Countdown from './Countdown'
 
 const Featured = () => {
   
@@ -14,6 +15,7 @@ const Featured = () => {
             </div>
         </div>
             
+        <Countdown></Countdown>
         </div>
     );
 };

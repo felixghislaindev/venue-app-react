@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './resources/styles.css'
 import Header from './components/header_footer/Header'
 import Featured from'./components/featured/index'
+import VenuInfo from './components/venuinfo/VenuInfo'
 
 class App extends Component {
   render() {
@@ -12,7 +13,8 @@ class App extends Component {
     return (
       <div className="App" style={style}>
        <Header/>
-       <Featured></Featured>
+       <Featured/>
+       <VenuInfo/>
       </div>
     );
   }
